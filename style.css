@@ -1,0 +1,207 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 12px 24px;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header .logo img {
+  width: 100px;
+}
+
+header .logo span {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+header menu {
+  display: flex;
+  gap: 56px;
+  align-items: center;
+}
+
+header menu a {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+header menu .menu-active {
+  color: #38b6ff;
+}
+
+/* HOME CONTENT */
+.home-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 85vh;
+}
+
+.home-main .home-content {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-main .home-content span:nth-child(1) {
+  font-size: 21px;
+  font-style: italic;
+}
+
+.home-main .home-content span:nth-child(2) {
+  font-size: 100px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.home-main .home-content span:nth-child(1) {
+  font-size: 21px;
+}
+
+/* ABOUT CONTENT */
+.about-main {
+  padding: 25px 50px;
+}
+
+.about-main .about-content .introduce-and-image {
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-main .about-content .introduce {
+  width: 500px;
+}
+
+.about-main .about-content .introduce h2 {
+  font-size: 25px;
+  color: #38b6ff;
+}
+
+.about-main .about-content h2 {
+  text-transform: uppercase;
+}
+
+.about-main .about-content .introduce p {
+  display: block;
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+.about-main .about-content img {
+  width: 386px;
+  height: 401px;
+}
+
+.about-main .about-content .education-and-skills {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+
+  margin-top: 25px;
+}
+
+.about-main .about-content .education-and-skills div {
+  width: 530px;
+  height: 178px;
+  background-color: #38b6ff;
+  padding: 20px;
+}
+
+.about-main .about-content .education-and-skills h2 {
+  color: #000;
+}
+
+.about-main .about-content .education-and-skills p {
+  font-size: 21px;
+}
+
+/* WORKS */
+.works-content {
+  display: flex;
+  gap: 73px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.works-content h1 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #38b6ff;
+}
+
+.works-content .works {
+  display: flex;
+  gap: 55px;
+  justify-content: center;
+}
+
+.works-content .works img {
+  width: 504px;
+}
+
+/* SERVICE */
+.service-main {
+  display: flex;
+  justify-content: center;
+
+  padding: 25px 50px;
+}
+
+.service-main .service-content {
+  display: grid;
+  gap: 75px;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+
+  width: 1024px;
+}
+
+.service-main .service-content div img:nth-child(1) {
+  width: 360px;
+  height: 360px;
+}
+
+.service-main .service-content div img:nth-child(2) {
+  width: 340px;
+  height: 360px;
+}
+
+.service-main .service-content div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-main .service-content div h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #38b6ff;
+  text-transform: uppercase;
+}
+
+.service-main .service-content div p {
+  font-size: 21px;
+  text-align: center;
+}
